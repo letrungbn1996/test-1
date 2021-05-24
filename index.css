@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'MetricWeb-Regular';
+    src: url('./font/MetricWeb-Regular.ttf');
+  }
+
+
+body {
+    font-family: 'MetricWeb-Regular';
+}
+
+
+.landing {
+    background-color: #21201e;
+    color: white;
+}
+
+.header {
+    padding: 1rem 4rem;
+    font-size: 20px;
+    display: flex;
+}
+
+.header .logo {
+    margin-right: 2rem;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu .menu-item {
+    margin-right: 2rem;
+    font-size: 17px;
+    color: #C3C4C7;
+    font-weight: 300;
+}
+
+
+.main .banner {
+    background-image: url('./images/herohob.jpg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main .banner .page-intro {
+    width: max-content;
+    height: max-content;
+    margin-left: 4rem !important;
+    padding: 1.5rem;
+    background-color: #000000;
+}
+
+
+.main .banner .page-intro .title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #dec117;
+}
+
+
+.main .banner .page-intro .description{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #dec117;
+}
+
+
+.main .banner .page-intro .btn-red-more {
+    padding: 0.25rem 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    background: #dec117;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+}
+
+.main .content {
+    padding: 2rem 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .content .title-content {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300px;
+}
+
+.main .content .list-cooktop {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .content .list-cooktop .item{
+    width: 30%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .content .list-cooktop .item .cooktop-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .list-cooktop .item .cooktop-intro .overview{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.main .content .list-cooktop .item .btn-view{
+    width: 100%;
+    margin: 15px 0;
+    background: #ddc117;
+    color: white;
+    border: none;
+    height: 26px;
+}
+
+.main .content .list-cooktop .item .description{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.main .content .list-cooktop .item .tech{
+    margin: 15px 0;
+}
+
+.main .content .list-cooktop .item .price{
+    font-size: 18px;
+    font-weight: 300;
+}
